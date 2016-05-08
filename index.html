@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>Virtual Caddy</title>
+    <link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+    <main>
+      <h1>Welcome to Virtual Caddy!</h1>
+      <main>
+
+        <form id="clubForm" action="#" method="post">
+          <label for="clubs">Please enter the club and distances in yards you would like to average: </label>
+          <select type="string" name="clubs" id="clubs">
+            <option value="null">(Select)</option>
+            <option value="sand wedge">Sand Wedge</option>
+            <option value="pitching wedge">Pitching Wedge</option>
+            <option value="9 iron">9 Iron</option>
+            <option value="8 iron">8 Iron</option>
+            <option value="7 iron">7 Iron</option>
+            <option value="6 iron">6 Iron</option>
+            <option value="5 iron">5 Iron</option>
+            <option value="4 iron">4 Iron</option>
+            <option value="3 iron">3 Iron</option>
+            <option value="7 wood">7 Wood</option>
+            <option value="5 wood">5 Wood</option>
+            <option value="3 wood">3 Wood</option>
+            <option value="driver">Driver</option>
+          </select>
+
+          <input type="text" name="shot1" id="shot1">
+          <input type="text" name="shot2" id="shot2">
+          <input type="text" name="shot3" id="shot3">
+
+          <input type="submit" value="Confirm" id="clubButton">
+        </form>
+
+        <!--form id="distance" action="#" method="post">
+          <label for="clubDistance">Please enter the distance to the hole: </label>
+          <input type="number" name="clubDistance" id="clubDistance">
+
+          <input type="submit" value="Confirm">
+        </form-->
+
+          <div id= "output">
+
+          </div>
+
+        <script src="./js/virtual_caddy.js"></script>
+      </main>
+      <footer>
+        <small>Copyright&copy; Iain Gay</small><br>
+        <small><a href="thecrowsnest777@hotmail.com">thecrowsnest777@hotmail.com</a></small>
+      </footer>
+    </main>
+	</body>
+</html>

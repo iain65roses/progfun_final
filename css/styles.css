@@ -1,0 +1,57 @@
+/* Written by Iain Gay
+Copyright 2016*/
+
+header, main, nav, footer, section{
+  display:block;
+}
+
+body{
+  background-color:#246D5E;
+  font-family:Verdana,Arial,sans-serif;
+}
+
+main{
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  max-width:100%;
+  background-color:#479030;
+  border-width:1px;
+
+}
+
+h1{
+  background-color:#2C4870;
+  text-align:center;
+  color: #FFF;
+  padding: 5px;
+}
+
+form{
+  text-align: center;
+}
+
+form>select, form>input{
+  display: block;
+  padding: 5px;
+  margin: auto;
+}
+
+
+
+footer{
+  text-align:center;
+  background-color: #2C4870;
+  padding: 2px;
+  color: #FFF;
+}
+
+footer>small>a{
+  text-decoration: none;
+  color: #FFF
+}
+
+footer>small>a:hover,footer>small>a:focus{
+  color: #479030;
+}
