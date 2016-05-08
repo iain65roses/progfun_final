@@ -48,7 +48,7 @@ function theAverage(){
 
   average = (number1 + number2 + number3) / 3;
 
-  average = average.toFixed(2)
+  average = average.toFixed(2);
 
   return average;
 
